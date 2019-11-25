@@ -337,6 +337,9 @@ hr.bold {
 /* ===========================
 --- General sections
 ============================ */
+.logo{
+	background: url(../img/logo_petit.png) no-repeat center center;
+}
 
 .home-section {
     padding-top: 150px;
@@ -431,7 +434,7 @@ hr.bold {
 ============================ */
 
 .hero {
-    background: url(../img/hero-bg.jpg) no-repeat center center;
+    background: url(../img/filtre.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -445,7 +448,7 @@ hr.bold {
     letter-spacing: 12px;
     margin: 40px 0 10px;
     font-weight: 900;
-    color: #fff;
+    color: #178d9a;
 }
 
 .hero h1 span {
@@ -456,7 +459,7 @@ hr.bold {
 .hero p {
     font-size: 24px;
     font-weight: 400;
-    color: #fefefe;
+    color: #178d9a;
 }
 
 .learn-more-btn {
@@ -470,16 +473,16 @@ hr.bold {
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
-    -webkit-box-shadow: 0px 3px 0px 0px #309383;
-    -moz-box-shadow: 0px 3px 0px 0px #309383;
-    box-shadow: 0px 3px 0px 0px #309383;
+    -webkit-box-shadow: 0px 3px 0px 0px #166b77;
+    -moz-box-shadow: 0px 3px 0px 0px #166b77;
+    box-shadow: 0px 3px 0px 0px #166b77;
     margin: 60px 0 0;
     font-weight: bold;
 }
 
 .learn-more-btn:hover,
 .learn-more-btn:focus {
-    background: rgba(61, 201, 179, 0.6);
+    background: #e6f4fa;
     color: #fff;
 }
 
