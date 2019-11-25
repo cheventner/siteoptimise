@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+
+
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+p{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+/* header */
+/* défilement du texte */
+.defile{
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: #178d9a;
+  font-weight: bold;
+}
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/* fin défilement de texte */
+header{
+  background-position: center;
+  background-image: url(../images/filtre.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  color: #178d9a;
+  letter-spacing: 0.02em;
+
+}
+
+.container-fluid header{
+  display: flex;
+  align-items: flex-end;
+}
+#position1{
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+header p{
+    color: black;
+    font-weight: bold;
+    height: 100px;
+}
+
+.offset-4{
+  text-decoration: none;
+  background: none;
+
+}
+.offset-4:hover{
+  text-decoration: none;
+  background: none;
+
+}
+.logo{
+  width: 190px;
+  height: 115px;
+  background-image: url(../images/logo_petit.png);
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* boutons a propos, competence, projets, contact*/
+
+.menu{
+  height: 200px;
+  padding-top: 100px;
+}
+
+
+a, a:hover{
+  text-decoration: none;
+  background-color: #178d9a;
+  color: white;
+  font-family: 'Roboto';
+  letter-spacing: 0.3em;
+
+}
+/* Actuellement */
+#logodev{
+  padding-left: 15px;
+  padding-right:15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.container{
+  margin-top: 50px;
+}
+.actuellement{
+  text-align: center;
+  padding-bottom: 50px;
+  color: #178d9a;
+  font-size: 2em;
+  font-family: 'Roboto-bold';
+  border-bottom: solid grey 1px;
+
+
+}
+h3{
+  text-align: center;
+  color: #178d9a;
+}
+.recherche {
+  color:#969696;
+  font-size: 1.6875em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* competence */
+.titrecompetence{
+  padding-top: 10px;
+  font-weight: bold;
+  margin-bottom: auto;
+  text-align: center;
+  margin: auto;
+  color: #178d9a;
+  font-size:2em;
+  height: 100px;
+
+
+}
+
+
+.logocss{
+  height: 150px;
+  width: 150px;
+  padding-left: 10px;
+  background-color: #178d9a;
+}
+
+.logohtml{
+  height: 150px;
+  width: 150px;
+  padding-left: 10px;
+  background-color: #178d9a;
+}
+
+.logojs{
+   height: 150px;
+  width: 150px;
+  padding-left: 10px;
+  background-color: #178d9a;
+}
+.logoillustrator{
+   height: 150px;
+  width: 150px;
+  padding-left: 10px;
+  background-color: #178d9a;
+}
+
+
+/* about */
+#borderabout{
+  border-top: solid grey 1px;
+  padding-top: 20px;
+}
+/* projets */
+#dessin, #projet, #photo{
+  border: solid blue;
+ display: flex;
+ height: 200px;
+ width: 100%;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+
+/*footer contact*/
+
+#footer{
+  display: flex;
+  justify-content: space-around;
+  height:200px;
+  width: 100%;
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color:#178d9a;
+  color: white;
+  margin-top: 15px;
+
+}
+
+#contactg{
+  display: flex;
+  height: 100%;
+  width: 30%;
+  flex-wrap: wrap;
+
+
+
+}
+#contactd{
+  display: flex;
+  height: 100%;
+  width: 30%;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.lieu, .tel, .linkedin, .github, .mail{
+  width: 100%;
+  height: 33%;
+ }
+.lieu{
+  background-size: 50px;
+}
+#maison, #linkedin, #git, #mail, #smartphone, #email{
+  margin-right: 20px;
+  height: 60%;
+  width: 12%;
+  margin-top: 5%;
+}
