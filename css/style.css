@@ -337,8 +337,9 @@ hr.bold {
 /* ===========================
 --- General sections
 ============================ */
-.logo{
+.fadeInLogo{
 	background: url(../img/logo_petit.png) no-repeat center center;
+	height: 150px;
 }
 
 .home-section {
@@ -498,6 +499,7 @@ hr.bold {
 	position:relative;
 	padding:120px 0 20px;
 }
+
 
 .brand-heading {
     font-size: 40px;
