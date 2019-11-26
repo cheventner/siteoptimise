@@ -642,6 +642,8 @@ hr.bold {
 	background: #fff;
 	border-bottom: 2px solid #f7f7f7;
 	padding: 40px 20px;
+	height: 30%;
+	width: auto;
 }
 
 .service-box:hover {
@@ -655,7 +657,9 @@ hr.bold {
 	margin-bottom: 20px;
 	color: #178d9a;
 }
-
+.service-icon img {
+	height: 100px;
+}
 .service-desc h5 {
 	text-transform: uppercase;
 	font-weight: 700;
