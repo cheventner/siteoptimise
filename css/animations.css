@@ -512,7 +512,7 @@
 .fadeInUp{ 
     opacity: 0; 
     -webkit-transform: translateY(400px); 
-    transform: translateY(400px);
+    transform: translateY(400px); 
 }
 .fadeInUp.go { 
     -webkit-animation-name: fadeInUp; 
