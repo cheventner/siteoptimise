@@ -16,3 +16,16 @@ partie a minimiser dans fichier style.css
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 
 partie Genéral section avant partie Intro
+
+
+
+code couleur
+très foncé #448b98
+foncé #7ab0bd
+clair #8ccad9
+
+bordure bouton
+box-shadow: 0px 3px 0px 0px #166b77;
+
+dégradé 
+background: linear-gradient(to right, #448b98, #7ab0bd, #8ccad9);

@@ -69,6 +69,6 @@ footer a.totop:hover {
 
 .btn-skin {
   color: #fff;
-  background-color: #178d9a;
+  background: linear-gradient(to right, #448b98, #7ab0bd, #8ccad9);
   border-color: #178d9a;
 }
