@@ -72,5 +72,4 @@
 			jQuery('.nav li').removeClass('active');
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
 		});
-	
 })(jQuery);
