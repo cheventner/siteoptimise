@@ -467,7 +467,9 @@ hr.bold {
     font-weight: 400;
     color: #178d9a;
 }
-
+#citation{
+	color: #222;
+}
 .learn-more-btn {
     background: linear-gradient(to right, #448b98, #7ab0bd, #8ccad9);
     padding: 20px 40px;
