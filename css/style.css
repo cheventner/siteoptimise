@@ -339,6 +339,10 @@ hr.bold {
 .margintop-45{margin-top:45px !important;}
 .margintop-50{margin-top:50px !important;}
 
+#html{
+	margin-left: 20%;
+}
+
 /* ===========================
 --- General sections
 ============================ */
@@ -490,7 +494,7 @@ hr.bold {
 
 .learn-more-btn:hover,
 .learn-more-btn:focus {
-    background: #e6f4fa;
+    background: #8ccad9;
     color: #fff;
 }
 
