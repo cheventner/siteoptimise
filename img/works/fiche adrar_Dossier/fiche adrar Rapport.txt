@@ -1,0 +1,56 @@
+Rapport d'assemblage
+
+-----------------------------------------------------------------------------
+Document :
+Nom : fiche adrar.ai
+Mode : Couleurs CMJN
+Profil colorimétrique : Coated FOGRA39 (ISO 12647-2:2004)
+Unité : millimètres
+Dimensions : 241,9684 mm x 271,676 mm
+Afficher les images en mode Tracés : INACTIF
+Mettre en évidence les polices substituées : INACTIF
+Mettre en évidence les glyphes substitués : INACTIF
+Conserver le caractère modifiable du texte
+Simuler le papier couleur : INACTIF
+
+-----------------------------------------------------------------------------
+Objets en tons directs :
+
+-----------------------------------------------------------------------------
+Polices manquantes :SANS
+
+-----------------------------------------------------------------------------
+Polices protégées non assemblées :SANS
+
+-----------------------------------------------------------------------------
+Polices :
+Myriad Pro Bold Condensed (OTF)
+Myriad Pro (OTF)
+
+-----------------------------------------------------------------------------
+Polices incorporées :
+SANS
+
+-----------------------------------------------------------------------------
+Liens manquants :
+SANS
+
+-----------------------------------------------------------------------------
+Images liées :
+
+/Utilisateurs/valeriecheventner/Téléchargements/webdesigner-freelance.jpg
+Type : RVB
+Bits par pixel : 24
+Couches : 3
+Taille : 399K, 430 x 317 pixels
+Dimensions : 410,098 x 258,349 points 
+Résolution : 75,494 x 88,346 pixels par pouce
+
+
+/Utilisateurs/valeriecheventner/Téléchargements/news_janv2018_1.jpg
+Type : RVB
+Bits par pixel : 24
+Couches : 3
+Taille : 205K, 234 x 300 pixels
+Dimensions : 178,743 x 156,513 points 
+Résolution : 94,258 x 138,008 pixels par pouce
