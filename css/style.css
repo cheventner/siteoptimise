@@ -924,18 +924,13 @@ footer a.totop:focus {
 	outline: 0;
 }
 
-#maison, #tel, #linkedin, #github, #mail{
+#maison, #tel, #linkedin, #github, #email{
 	margin-right: 20px;
-	margin-top: 5%;
+
    }
 
 
-.col-md-3{
-	border: solid purple;
-}
-.col-md-4{
-	border: solid green;
-}
+
 /* menu */
 ul.footer-menu {
 	list-style: none;
