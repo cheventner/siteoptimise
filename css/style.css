@@ -906,7 +906,7 @@ footer {
 }
 
 footer {
-	text-align: center;
+	
 	padding: 50px 0 30px ;
 
 }
@@ -924,12 +924,11 @@ footer a.totop:focus {
 	outline: 0;
 }
 
-#lieu, #tel, #linkedin, #github, #mail{
-	padding-left: 2px;
+#maison, #tel, #linkedin, #github, #mail{
+	margin-right: 20px;
+	margin-top: 5%;
    }
-#lieu{
-	background-size: 50px;
-  }
+
 
 .col-md-3{
 	border: solid purple;
