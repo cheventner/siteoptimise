@@ -931,10 +931,18 @@ footer a.totop:focus {
   .lieu{
 	background-size: 50px;
   }
-  #maison, #linkedin, #git, #mail, #smartphone, #email{
+  #footer{
+	  display: flex;
+  }
+  #contactg{
+	  display: flex;
+	  width: 50%;
+	  align-items: flex-start;
+  }
+#maison, #linkedin, #git, #mail, #smartphone, #email{
 	margin-right: 20px;
 	height: 60%;
-	width: 12%;
+	width: 40%;
 	margin-top: 5%;
   }
 
