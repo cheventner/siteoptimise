@@ -15,10 +15,7 @@ button {
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-<<<<<<< HEAD
   background: #666;
-=======
-
   color: #fff;
 }
 
@@ -35,10 +32,7 @@ body {
 
 
 .section {
-<<<<<<< HEAD
   background: #ffffff;
-=======
-
   padding: 50px 0;
 }
 
@@ -51,10 +45,7 @@ body {
 
 .section h1 { font-size: 2.5rem; }
 
-<<<<<<< HEAD
 /*.section h2 { font-size: 1.3rem; }*/
-=======
-
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -63,10 +54,7 @@ body {
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
-<<<<<<< HEAD
   background-color: #f9f9f9;
-=======
->>>>>>> 42d0798123ee612773d60f86eeaddc72ad48972b
 }
 
 .timeline ol {
