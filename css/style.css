@@ -924,14 +924,13 @@ footer a.totop:focus {
 	outline: 0;
 }
 
-/*.lieu, .tel, .linkedin, .github, .mail{
-	width: 100%;
-	height: 100%;
+#lieu, #tel, #linkedin, #github, #mail{
+	padding-left: 2px;
    }
-  .lieu{
+#lieu{
 	background-size: 50px;
   }
-*/
+
 .col-md-3{
 	border: solid purple;
 }
