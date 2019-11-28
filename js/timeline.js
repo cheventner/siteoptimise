@@ -21,7 +21,7 @@
       setKeyboardFn(arrowPrev, arrowNext);
     }
   
-    // SET EQUAL HEIGHTS
+    // RÉGLER DES HAUTEURS ÉGALES
     function setEqualHeights(el) {
       let counter = 0;
       for (let i = 0; i < el.length; i++) {
@@ -37,7 +37,7 @@
       }
     }
   
-    // CHECK IF AN ELEMENT IS IN VIEWPORT
+    // VÉRIFIER SI UN ÉLÉMENT EST DANS LA FENÊTRE D'AFFICHAGE
     // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
     function isElementInViewport(el) {
       const rect = el.getBoundingClientRect();
@@ -49,7 +49,7 @@
       );
     }
   
-    // SET STATE OF PREV/NEXT ARROWS
+    // ÉTAT DES FLÈCHES PREV/NEXT
     function setBtnState(el, flag = true) {
       if (flag) {
         el.classList.add(disabledClass);
@@ -77,7 +77,7 @@
             tl.style.transform = `translateX(-${scrolling}px)`;
           } else {
             const tlStyle = getComputedStyle(tl);
-            // add more browser prefixes if needed here
+            // ajouter d'autres préfixes de navigateur si nécessaire ici
             const tlTransform = tlStyle.getPropertyValue("-webkit-transform") || tlStyle.getPropertyValue("transform");
             const values = parseInt(tlTransform.split(",")[4]) + parseInt(`${sign}${scrolling}`);
             tl.style.transform = `translateX(${values}px)`;
@@ -93,14 +93,14 @@
       }
     }
   
-    // ADD SWIPE SUPPORT FOR TOUCH DEVICES
+    // AJOUT D'UNE PRISE EN CHARGE DU BALAYAGE POUR LES APPAREILS TACTILES
     function setSwipeFn(tl, prev, next) {
       const hammer = new Hammer(tl);
       hammer.on("swipeleft", () => next.click());
       hammer.on("swiperight", () => prev.click());
     }
   
-    // ADD BASIC KEYBOARD FUNCTIONALITY
+    // AJOUTER LA FONCTIONNALITÉ DE BASE DU CLAVIER
     function setKeyboardFn(prev, next) {
       document.addEventListener("keydown", (e) => {
         if ((e.which === 37) || (e.which === 39)) {
