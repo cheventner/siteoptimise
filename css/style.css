@@ -932,14 +932,26 @@ footer a.totop:focus {
 	background-size: 50px;
   }
   #footer{
+	  border: solid yellow;
 	  display: flex;
+	  align-items: flex-end;
   }
   #contactg{
+	  border: solid blue;
 	  display: flex;
 	  width: 50%;
 	  align-items: flex-start;
+	  justify-content: flex-start;
+	  height: 100%;
+	  flex-direction: column;
+  }
+  #contactd{
+	  border: solid red;
+	  width: 50%;
+	  display: flex;
   }
 #maison, #linkedin, #git, #mail, #smartphone, #email{
+	border: solid green;
 	margin-right: 20px;
 	height: 60%;
 	width: 40%;
