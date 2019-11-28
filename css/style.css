@@ -928,8 +928,9 @@ footer a.totop:focus {
 	margin-right: 20px;
 
    }
-
-
+.lieu, .smartphone, .linkedin, .github, .mail{
+	padding:20px;
+}
 
 /* menu */
 ul.footer-menu {
