@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="description" content="">
   <meta name="author" content="">
+
 
   <title>Valerie Cheventner</title>
 
@@ -18,6 +20,7 @@
   <link href="css/animations.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
   <link href="color/default.css" rel="stylesheet">
+  <link href="css/timeline.css" rel="stylesheet">
   <!-- =======================================================
     Theme Name: Bocor
     Theme URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
@@ -368,6 +371,7 @@
 
 
   <!-- Section: expérience -->
+  <!--
   <section id="experiences" class="home-section color-dark text-center bg-white">
     <div class="container marginbot-50">
       <div class="row">
@@ -418,10 +422,78 @@
     </div>
 
   </section>
+-->
   <!-- /Section: experience -->
 
+  <!-- Section: expérience avec timeline-->
+  <section id="experiences" class="home-section color-dark text-center bg-white">
+    <!--  <section class="section intro" id="timeline">-->
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2 class="h-bold3">Expériences</h2>
+        <div class="divider-header"></div>
+      </div>
+
+    </div>
+  </section>
+  <div class="css-script-ads">
+  </div>
+  <section class="timeline">
+    <ol>
+      <li>
+        <div>
+          <time> Sept 2019 - Avril 2020</time>
+          <p class="titre">Formation WebDesigner / Developpeuse front-end web</p>
+          <img src="img/logoadrar.jpg" id="logoadrar" class="img-responsive" alt="img">
+          Gestion de travail en équipe : SLACK - TRELLO - Méthode AGILE
+          <p>Outils de developpement : HTML - CSS - JavaScript - WordPress </br>
+            Outils de graphisme / animation : ILLUSTRATOR - PHOTOSHOP - AFTER EFFECTS - ANIMATE
+            Outils de maquettage : ADOBE XP - MOQUPS</p>
 
 
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <time>1943</time>
+          In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id
+          magna est. </div>
+      </li>
+      <li>
+        <div>
+          <time>1946</time>
+          In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id
+          magna est. </div>
+      </li>
+      <li>
+        <div>
+          <time>1956</time>
+          In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id
+          magna est. </div>
+      </li>
+      <li>
+        <div>
+          <time>1957</time>
+          In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id
+          magna est. </div>
+      </li>
+      <li>
+        <div>
+          <time>1967</time>
+          Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+        </div>
+      </li>
+
+      <li></li>
+    </ol>
+    <div class="arrows">
+      <button class="arrow arrow__prev disabled" disabled> <img
+          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_prev.svg" alt="prev timeline arrow"> </button>
+      <button class="arrow arrow__next"> <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_next.svg"
+          alt="next timeline arrow"> </button>
+    </div>
+  </section>
   <!-- Section: projets -->
   <section id="projets" class="home-section color-dark bg-gray">
     <div class="container marginbot-50">
@@ -494,18 +566,18 @@
                   <h5>Photographie</h5>
                   <div class="divider-header"></div>
                   <p>
-                      J'aime me promener avec mon appareil photo, prendre des clichés d'architecture en noir&blanc,
-                      faire des portraits qui me serviront de modèles pour mes dessins. J'aime aussi le monde de la
-                      macro,
-                      qui demande beaucoup de patience mais pour un si beau résultat de l'infiniment petit.
-                      Prendre des photos qui pourrait servir de Quizz, "mais qu'est ce que ça peut-être "
-                      ?
+                    J'aime me promener avec mon appareil photo, prendre des clichés d'architecture en noir&blanc,
+                    faire des portraits qui me serviront de modèles pour mes dessins. J'aime aussi le monde de la
+                    macro,
+                    qui demande beaucoup de patience mais pour un si beau résultat de l'infiniment petit.
+                    Prendre des photos qui pourrait servir de Quizz, "mais qu'est ce que ça peut-être "
+                    ?
                   </p>
-                  
+
                   <a href="./img/fleurs.jpeg"> <img src="./img/fleursmini.jpg" alt="fleurs"></a>
                   <a href="./img/libellule.jpeg"> <img src="./img/libellulesmini.jpg" alt="libellules"></a>
                   <a href="./img/papillon.jpeg"> <img src="./img/papillonmini.jpg" alt="papillon"></a>
-                <!--  <a href="#" class="btn btn-skin">Learn more</a>-->
+                  <!--  <a href="#" class="btn btn-skin">Learn more</a>-->
                 </div>
               </div>
             </div>
@@ -585,25 +657,39 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <ul class="footer-menu">
+        <div class="col-md-12">
+          <!-- <ul class="footer-menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Press release</a></li>
           </ul>
         </div>
-        <div class="col-md-6 text-right copyright">
-          &copy;Copyright - Bocor. All Rights Reserved
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bocor
-            -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div class="col-md-6 text-right copyright">-->
+          <div id="contactg">
+            <div class="col-lg-8">
+                
+              <div class=lieu> <img id="maison" src="./img/maison.png"> Montpellier</div>
+            </div>
+            <div class="col-lg-8">
+              <a href="0682870782" class=tel></a> <img id="smartphone" src="./img/smartphone.png"> 06.82.87.07.82>
+            </div>
+            
+            <div class="col-lg-8">
+              <div class=linkedin><img id="linkedin" src="./img/linkedin.png"> valérie-cheventner</div>
+            </div>
           </div>
+          <div id="contactd">
+            <div class="col-lg-8">
+              <div class=github><img id="git" src="./img/logogit.png" href="https://cheventner.github.io/sitecv/"> </div>
+            </div>
+            <div class="col-lg-8">
+              <div class=mail><img id="mail" src="./img/email.png" href="va.cheventner@gmail.com"> </div>
+            </div>
+
+          </div>
+
         </div>
       </div>
+    </div>
     </div>
   </footer>
 
@@ -616,10 +702,18 @@
   <script src="js/jquery.appear.js"></script>
   <script src="js/stellar.js"></script>
   <script src="js/nivo-lightbox.min.js"></script>
-
+  <script src="js/timeline.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/css3-animate-it.js"></script>
   <script src="contactform/contactform.js"></script>
+  <script type="text/javascript">
+    google_ad_client = "ca-pub-2783044520727903";
+    /* CSSScript Demo Page */
+    google_ad_slot = "3025259193";
+    google_ad_width = 728;
+    google_ad_height = 90;
+  </script>
+  <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
 
 </body>
 
