@@ -924,36 +924,20 @@ footer a.totop:focus {
 	outline: 0;
 }
 
+/*.lieu, .tel, .linkedin, .github, .mail{
+	width: 100%;
+	height: 100%;
+   }
   .lieu{
 	background-size: 50px;
   }
-  #footer{
-	  border: solid yellow;
-	  display: flex;
-	  align-items: flex-end;
-  }
-  #contactg{
-	  border: solid blue;
-	  display: flex;
-	  width: 50%;
-	  align-items: flex-start;
-	  justify-content: flex-start;
-	  height: 100%;
-	  flex-direction: column;
-  }
-  #contactd{
-	  border: solid red;
-	  width: 50%;
-	  display: flex;
-  }
-#maison, #linkedin, #git, #mail, #smartphone, #email{
+*/
+.col-md-3{
+	border: solid purple;
+}
+.col-md-4{
 	border: solid green;
-	margin-right: 20px;
-	height: 60%;
-	width: 40%;
-	margin-top: 5%;
-  }
-
+}
 /* menu */
 ul.footer-menu {
 	list-style: none;
