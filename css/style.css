@@ -495,6 +495,10 @@ hr.bold {
 .col-md-2{
 	border:solid yellow;
 }
+.col-md-4{
+	border: solid green;
+}
+
 .hsmartphone, .hlinkedin, .hgithub, .hmail{
 	width: auto;
 	margin-top: 100px;
