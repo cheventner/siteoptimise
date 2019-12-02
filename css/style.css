@@ -495,8 +495,10 @@ hr.bold {
 .col-md-2{
 	border:solid yellow;
 }
-.col-md-4{
-	border: solid green;
+
+.btn-group{
+	border:solid purple;
+	height: 20px;
 }
 
 .hsmartphone, .hlinkedin, .hgithub, .hmail{
@@ -917,7 +919,7 @@ footer {
 
 footer {
 	
-	padding: 50px 0 30px ;
+	padding: 10px 0 10px ;
 
 }
 
