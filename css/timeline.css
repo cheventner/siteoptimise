@@ -1,226 +1,175 @@
-/* partie expérience timeline*/
-
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #666;
-  color: #fff;
+	background: #f9f9f9;
+	font-family: Georgia, serif;
+	color: black;
+	font-size: 14px;
 }
 
-/* .intro #timeline
---------------------------------------------------*/
+a {
+	color: #448b98cc;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+	a:hover,
+	a.selected {
+		color: #8ccad9;
+	}
 
-.intro {
-    height: 10%;
-    padding: 0;
+h1,h2,h4,h5,h6 {
+	text-align: center;
+	color: #ccc;
+	text-shadow: #000 1px 1px 2px;
+	margin-bottom: 5px;
+}
+	h1 {
+		font-size: 18px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+.sociales {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-/* .section SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+	#timeline {
+		width: 500px;
+		height: 600px;
+		overflow: hidden;
+		margin: 40px auto;
+		position: relative;
+		background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif') 3px top repeat-y;
+	}
+		#dates {
+			width: 100px;
+			height: 600px;
+			overflow: hidden;
+			float: left;
+		}
+			#dates li {
+				list-style: none;
+				width: 100px;
+				height: 100px;
+				line-height: 100px;
+				font-size: 24px;
+				padding-left: 10px;
+				background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;
+			}
+				#dates a {
+					line-height: 38px;
+					padding-bottom: 10px;
+				}
+				#dates .selected {
+			        font-size: 38px;
+				}
+		
+		#issues {
+			width: 400px;
+			height: 600px;
+			overflow: hidden;
+			float: left;
+		}	
+			#issues li {
+				max-width: 300px; // width: 400px;
+				height: 600px;
+				list-style: none;
+         text-align: center; // add
 
-
-.section {
-  background: #ffffff;
-  padding: 50px 0;
-}
-
-.section .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
- gfdsqw
-.section h1 { font-size: 2.5rem; }
-
-p.timetext{
-  font-size: 1.3rem;
-}
-
-#experiences{
-padding-top: 0px;
-padding-bottom: 25px;
-background-color: #f9f9f9;
-}
-
-.titre{
-  color:#448b98 ;
-  font-size: medium;
-
-}
-/*.section h2 { font-size: 1.3rem; }*/
-
-/* .section logo
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#logoadrar{
-  width: 50px;
-  height: 50px;
-  text-align: center;
-}
-
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-.timeline {
-  white-space: nowrap;
-  overflow-x: hidden;
-  background-color: #f9f9f9;
-}
-
-.timeline ol {
-  font-size: 0;
-  width: 100vw;
-  padding: 350px 0;
-  transition: all 1s;
-}
-
-.timeline ol li {
-  position: relative;
-  display: inline-block;
-  list-style-type: none;
-  width: 160px;
-  height: 3px;
-  background: #448b98ff;
-}
-
-.timeline ol li:last-child { width: 280px; }
-
-.timeline ol li:not(:first-child) { margin-left: 14px; }
-
-.timeline ol li:not(:last-child)::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc(100% + 1px);
-  bottom: 0;
-  width: 12px;
-  height: 12px;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: #F45B69;
-}
-
-.timeline ol li div {
-  position: absolute;
-  left: calc(100% + 7px);
-  width: 280px;
-  padding: 15px;
-  font-size: 1rem;
-  white-space: normal;
-  color: black;
-  background: white;
-}
-
-.timeline ol li div::before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-
-.timeline ol li:nth-child(odd) div {
-  /*top: -16px;*/
-  transform: translateY(-100%);
-}
-
-.timeline ol li:nth-child(odd) div::before {
-  top: 100%;
-  border-width: 8px 8px 0 0;
-  border-color: white transparent transparent transparent;
-}
-
-.timeline ol li:nth-child(even) div { top: calc(100% + 16px); }
-
-.timeline ol li:nth-child(even) div::before {
-  top: -8px;
-  border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent white;
-}
-
-.timeline time {
-  display: block;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-/* TIMELINE ARROWS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-.timeline .arrows {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.timeline .arrows .arrow__prev { margin-right: 20px; }
-
-.timeline .disabled { opacity: .5; }
-
-.timeline .arrows img {
-  width: 45px;
-  height: 45px;
-}
-
-
-/* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 599px) {
-
-.timeline ol,  .timeline ol li { width: auto; }
-
-.timeline ol {
-  padding: 0;
-  transform: none !important;
-}
-
-.timeline ol li {
-  display: block;
-  height: auto;
-  background: transparent;
-}
-
-.timeline ol li:first-child { margin-top: 25px; }
-
-.timeline ol li:not(:first-child) { margin-left: auto; }
-
-.timeline ol li div {
-  width: 94%;
-  height: auto !important;
-  margin: 0 auto 25px;
-}
-
-.timeline ol li div { position: static; }
-
-.timeline ol li:nth-child(odd) div { transform: none; }
-
-.timeline ol li:nth-child(odd) div::before,  .timeline ol li:nth-child(even) div::before {
-  left: 50%;
-  top: 100%;
-  transform: translateX(-50%);
-  border: none;
-  border-left: 1px solid white;
-  height: 25px;
-}
-
-.timeline ol li:last-child,  .timeline ol li:nth-last-child(2) div::before,  .timeline ol li:not(:last-child)::after,  .timeline .arrows { display: none; }
-}
+			}
+				#issues li.selected img {
+					-webkit-transform: scale(1.1,1.1);
+					-moz-transform: scale(1.1,1.1);
+				    -o-transform: scale(1.1,1.1);
+				    -ms-transform: scale(1.1,1.1);
+				    transform: scale(1.1,1.1);
+				}
+				#issues li img {
+					// float: left;
+            width: 200px; // add
+					margin: 10px 30px 10px 50px;
+					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+					zoom: 1;
+					-webkit-transition: all 2s ease-in-out;
+					-moz-transition: all 2s ease-in-out;
+					-o-transition: all 2s ease-in-out;
+					-ms-transition: all 2s ease-in-out; 
+					transition: all 2s ease-in-out;
+					-webkit-transform: scale(0.7,0.7);
+					-moz-transform: scale(0.7,0.7);
+				    -o-transform: scale(0.7,0.7);
+				    -ms-transform: scale(0.7,0.7);
+				    transform: scale(0.7,0.7);
+				}
+				#issues li h1 {
+					color: #448b98;
+					font-size: 2rem;
+					text-align: center;
+					text-shadow: #000 1px 1px 2px;
+				}
+				#issues li p {
+					font-size: 14px;
+					margin: 10px 20px;
+					font-weight: normal;
+					line-height: 22px;
+				
+				}
+		
+		#grad_top,
+		#grad_bottom {
+			width: 500px;
+			height: 80px;
+			position: absolute;
+		}
+			#grad_top {
+		        top: 0;
+		        background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/grad_top.png') repeat-x;
+			}
+			#grad_bottom {
+		        bottom: 0;
+		        background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/grad_bottom.png') repeat-x;
+			}
+		
+		#next,
+		#prev {
+			position: absolute;
+			left: 45%; // left: 55%;
+			font-size: 70px;
+			width: 38px;
+			height: 22px;
+			background-position: 0 -44px;
+			background-repeat: no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+		}
+			#next:hover,
+			#prev:hover {
+				background-position:  0 0;
+			}
+			#next {
+				bottom: 0;
+				background-image: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/next_v.png');
+			}
+			#prev {
+				top: 0;
+				background-image: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/prev_v.png');
+			}
+				#next.disabled,
+				#prev.disabled {
+					opacity: 0.2;
+        }
+        
+   .titretimeline{
+    
+     text-align: center;
+     color: #448b98;
+   }  
