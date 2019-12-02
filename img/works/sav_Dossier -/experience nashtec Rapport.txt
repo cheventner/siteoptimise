@@ -1,0 +1,56 @@
+Rapport d'assemblage
+
+-----------------------------------------------------------------------------
+Document :
+Nom : experience nashtec.ai
+Mode : Couleurs CMJN
+Profil colorimétrique : Coated FOGRA39 (ISO 12647-2:2004)
+Unité : millimètres
+Dimensions : 154,8694 mm x 170,0389 mm
+Afficher les images en mode Tracés : INACTIF
+Mettre en évidence les polices substituées : INACTIF
+Mettre en évidence les glyphes substitués : INACTIF
+Conserver le caractère modifiable du texte
+Simuler le papier couleur : INACTIF
+
+-----------------------------------------------------------------------------
+Objets en tons directs :
+
+-----------------------------------------------------------------------------
+Polices manquantes :SANS
+
+-----------------------------------------------------------------------------
+Polices protégées non assemblées :SANS
+
+-----------------------------------------------------------------------------
+Polices :
+Myriad Pro Bold Condensed (OTF)
+Myriad Pro (OTF)
+
+-----------------------------------------------------------------------------
+Polices incorporées :
+SANS
+
+-----------------------------------------------------------------------------
+Liens manquants :
+SANS
+
+-----------------------------------------------------------------------------
+Images liées :
+
+/Utilisateurs/valeriecheventner/Téléchargements/comptabilite_600px.jpg
+Type : RVB
+Bits par pixel : 24
+Couches : 3
+Taille : 418K, 600 x 238 pixels
+Dimensions : 365,827 x 144,288 points 
+Résolution : 118,089 x 118,763 pixels par pouce
+
+
+/Utilisateurs/valeriecheventner/Téléchargements/logo-20nashtec-20bleu.png
+Type : CMJN transparent
+Bits par pixel : 40
+Couches : 5
+Taille : 64K, 300 x 44 pixels
+Dimensions : 351,711 x 41,731 points 
+Résolution : 61,414 x 75,915 pixels par pouce
