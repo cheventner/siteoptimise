@@ -72,6 +72,7 @@ h1.h-light,h2.h-light,h3.h-light ,h4.h-light ,h5.h-light ,h6.h-light  {
 
 h1.h-bold,h2.h-bold,h2.h-bold2,h2.h-bold3,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
 	font-weight: 600;
+	padding-top: 20px;
 }
 
 h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-light {
@@ -165,18 +166,18 @@ blockquote strong {
 
 
 /* --- logo --- */
-.site-logo {
-	margin-top: 10px;
+
+
+#reseaux {
+	display: flex;
+	justify-content: center;
 }
-.site-logo a.brand {
-	color: #111;
-	text-transform: uppercase;
-	font-size: 32px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	margin-top: 20px;
-}
+
 #github{
+	background-color: white;
+	border-radius: 50px;
+}
+#git{
 	background-color: white;
 	border-radius: 50px;
 }
@@ -786,7 +787,10 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 	text-align: left;
 }
 
+#contact{
+	border-top: solid 5px #16abbe;
 
+}
 
 /* ===========================
 --- Bottom
@@ -916,7 +920,7 @@ form.search-form input:focus {
 ============================ */
 
 footer {
-    background-color: #404040;
+    background-color: #f9f9f9;
 }
 
 footer {
@@ -938,7 +942,7 @@ footer a.totop:focus {
 	outline: 0;
 }
 
-#maison, #tel, #linkedin, #github, #email{
+#maison, #tel, #linkedin, #git, #email{
 	margin-right: 20px;
 
    }
