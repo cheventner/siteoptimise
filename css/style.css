@@ -491,10 +491,11 @@ hr.bold {
     box-shadow: 0px 3px 0px 0px #166b77;
     margin: 60px 0 0;
     font-weight: bold;
+}
 
 
 .btn-group{
-	border:solid purple;
+	border: solid purple;
 	height: 20px;
 }
 
