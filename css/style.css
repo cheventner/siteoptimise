@@ -72,7 +72,6 @@ h1.h-light,h2.h-light,h3.h-light ,h4.h-light ,h5.h-light ,h6.h-light  {
 
 h1.h-bold,h2.h-bold,h2.h-bold2,h2.h-bold3,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
 	font-weight: 600;
-	padding-top: 20px;
 }
 
 h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-light {
@@ -166,21 +165,18 @@ blockquote strong {
 
 
 /* --- logo --- */
-
-
-#reseaux {
-	display: flex;
-	justify-content: center;
+.site-logo {
+	margin-top: 10px;
+}
+.site-logo a.brand {
+	color: #111;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	margin-top: 20px;
 }
 
-#github{
-	background-color: white;
-	border-radius: 50px;
-}
-#git{
-	background-color: white;
-	border-radius: 50px;
-}
 
 /* ------- Navigation ------------ */
 #navigation {
@@ -454,8 +450,7 @@ hr.bold {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	
-	padding: 100px 0 20px 0;
+    padding: 100px 0 100px 0;
     height: auto;
 }
 
@@ -496,11 +491,10 @@ hr.bold {
     box-shadow: 0px 3px 0px 0px #166b77;
     margin: 60px 0 0;
     font-weight: bold;
-}
 
 
 .btn-group{
-	border: solid purple;
+	border:solid purple;
 	height: 20px;
 }
 
@@ -787,10 +781,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 	text-align: left;
 }
 
-#contact{
-	border-top: solid 5px #16abbe;
 
-}
 
 /* ===========================
 --- Bottom
@@ -920,7 +911,7 @@ form.search-form input:focus {
 ============================ */
 
 footer {
-    background-color: #f9f9f9;
+    background-color: #404040;
 }
 
 footer {
@@ -942,7 +933,7 @@ footer a.totop:focus {
 	outline: 0;
 }
 
-#maison, #tel, #linkedin, #git, #email{
+#maison, #tel, #linkedin, #github, #email{
 	margin-right: 20px;
 
    }
@@ -950,6 +941,10 @@ footer a.totop:focus {
 	padding:20px;
 }
 
+#maison{
+	height: 50px;
+	width: 50px;
+}
 /* menu */
 ul.footer-menu {
 	list-style: none;
